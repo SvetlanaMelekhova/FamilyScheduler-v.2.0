@@ -24,7 +24,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         App.INSTANCE.appComponent.inject(this)
         super.onViewCreated(view, savedInstanceState)
         binding.button.setOnClickListener {
-            router.navigateTo(Notifications())
+           router.navigateTo(Notifications())
         }
     }
 }
